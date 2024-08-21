@@ -1,0 +1,14 @@
+#yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: Order Service and API docs
+site_url: https://tefeu.github.io/order-service-docs/
+theme:
+  name: material
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+plugins:
+  - search
+  - blog

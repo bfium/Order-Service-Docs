@@ -1,0 +1,21 @@
+version: '3'
+
+tasks:
+  deploy:
+    desc: deploy to github page if the workflow is not working
+    cmds:
+      - mkdocs gh-deploy --force
+
+  deploy-docker:
+    desc: deploy to github page if the workflow is not working
+    cmds:
+      - docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
+
+  serve:
+    desc: edit while previewing
+    cmds:
+      - mkdocs serve -a  localhost:8005
+
+  build:
+    cmds:
+      - mkdocs build
