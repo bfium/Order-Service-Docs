@@ -12,3 +12,7 @@ extra_javascript:
 plugins:
   - search
   - blog
+
+links:
+  - index.md
+  - blog/index.md
