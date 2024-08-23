@@ -2,6 +2,8 @@
 date:
   created: 2024-08-11
   updated: 2024-08-16
+categories:
+  - it
 #draft: true
 readtime: 5
 # pin: false
