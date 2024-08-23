@@ -3,8 +3,11 @@ site_name: Order Service and API docs
 site_url: https://bfium.github.io/order-service-docs/
 theme:
   name: material
+  features:
+    - navigation.indexes
 extra_css:
   - stylesheets/extra.css
+
 
 extra_javascript:
   - javascripts/extra.js
@@ -16,3 +19,10 @@ plugins:
 links:
   - index.md
   - blog/index.md
+
+nav:
+  - Home: index.md
+  - Install: install.md
+  - Usage: usage.md
+  - Blog:
+      - blog/index.md
