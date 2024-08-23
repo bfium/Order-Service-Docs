@@ -14,7 +14,8 @@ extra_javascript:
 
 plugins:
   - search
-  - blog
+  - blog:
+      archive_date_format: MMM yyyy
 
 links:
   - index.md
