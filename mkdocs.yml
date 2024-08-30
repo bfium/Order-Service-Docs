@@ -8,7 +8,6 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
-
 extra_javascript:
   - javascripts/extra.js
 
@@ -16,6 +15,10 @@ plugins:
   - search
   - blog:
       archive_date_format: MMM yyyy
+      categories_allowed:
+        - it
+        - News
+      authors_profiles: true
   - tags
 
 

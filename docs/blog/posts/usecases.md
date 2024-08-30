@@ -14,6 +14,9 @@ links:
 tags:
   - new year
   - hogmanay
+
+authors:
+  - team
 ---
 
 # Structured resource URLs with HTTP methods
