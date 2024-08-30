@@ -16,6 +16,8 @@ plugins:
   - search
   - blog:
       archive_date_format: MMM yyyy
+  - tags
+
 
 links:
   - index.md

@@ -8,8 +8,10 @@ pin: true
 links:
   - Homepage: index.md
   - Blog index: blog/index.md
-  - External links:
-    #- Material documentation: https://squidfunk.github.io/mkdocs-material
+
+tags:
+  - new year
+  - hogmanay
 ---
 
 

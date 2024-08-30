@@ -10,6 +10,10 @@ readtime: 5
 links:
   - Homepage: index.md
   - Blog index: blog/index.md
+
+tags:
+  - new year
+  - hogmanay
 ---
 
 # Structured resource URLs with HTTP methods

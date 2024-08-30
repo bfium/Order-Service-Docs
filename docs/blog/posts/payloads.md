@@ -8,6 +8,11 @@ readtime: 5
 links:
   - Homepage: index.md
   - Blog index: blog/index.md
+
+
+tags:
+  - new year
+  - hogmanay
 ---
 
 # Designing API payloads
