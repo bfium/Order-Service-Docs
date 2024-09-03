@@ -14,11 +14,14 @@ extra_javascript:
 plugins:
   - search
   - blog:
+      blog_toc: true
       archive_date_format: MMM yyyy
       categories_allowed:
         - it
         - News
       authors_profiles: true
+      pagination_per_page: 5
+      categories_pagination_per_page: 6
   - tags
 
 
