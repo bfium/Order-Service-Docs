@@ -23,6 +23,11 @@ plugins:
       pagination_per_page: 5
       categories_pagination_per_page: 6
   - tags
+  - rss:
+      match_path: "blog/posts/."
+      date_from_meta:
+        as_creation: date.created
+        as_update: date.updated
 
 
 links:
