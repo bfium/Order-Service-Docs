@@ -29,6 +29,19 @@ plugins:
         as_creation: date.created
         as_update: date.updated
 
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      name: barth. Feudong
+      link: https://www.linkedin.com/in/barth-feudong/
+
+    - icon: /fontawesome/regular/envelope
+      name: send me an email
+      link: mailto:<email-address>
+
+    - icon: /material/mailbox
+      name: contact us
+      link: /contact
 
 links:
   - index.md
