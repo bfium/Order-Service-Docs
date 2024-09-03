@@ -14,6 +14,14 @@ extra_javascript:
 
 plugins:
   - search
+  #- meta
+#  - social:
+#      cards_layout_options:
+#        background_color: "#ff1493"
+#        logo: docs/assets/images/favicon.png
+#        cards_layout: default/variant
+
+
   - blog:
       blog_toc: true
       archive_date_format: MMM yyyy

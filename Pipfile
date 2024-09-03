@@ -4,8 +4,8 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-mkdocs-material="*"
 mkdocs-rss-plugin = "*"
+mkdocs-material = {extras = ["imaging"], version = "*"}
 
 [dev-packages]
 
