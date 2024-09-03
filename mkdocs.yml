@@ -3,6 +3,7 @@ site_name: Order Service and API docs
 site_url: https://bfium.github.io/order-service-docs/
 theme:
   name: material
+  custom_dir: overrides
   features:
     - navigation.indexes
 extra_css:
@@ -43,14 +44,15 @@ extra:
       name: contact us
       link: /contact
 
-hooks:
-  - hooks/socialmedia.py
+#hooks:
+#  - hooks/socialmedia.py
+#
+#markdown_extensions:
+#  - attr_list
+#  - pymdownx.emoji:
+#      emoji_index: !!python/name:material.extensions.emoji.twemoji
+#      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-markdown_extensions:
-  - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 links:
   - index.md
