@@ -8,7 +8,9 @@ readtime: 5
 links:
   - Homepage: index.md
   - Blog index: blog/index.md
-
+    
+authors:
+  - team
 
 tags:
   - new year
