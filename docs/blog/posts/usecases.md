@@ -3,7 +3,7 @@ date:
   created: 2024-08-11
   updated: 2024-08-16
 categories:
-  - it
+  - IT
 #draft: true
 readtime: 5
 # pin: false
@@ -34,22 +34,6 @@ The most relevant HTTP methods in REST APIs are GET, POST, PUT, PATCH, and DELET
 - POST—Creates a new resource
 - PUT—Performs a full update by replacing a resource
 - DELETE—Deletes a resource
-
-In the orders API, we have these two resource URLs:
-
-- `/orders`: Represents a list of orders. 
-- `/orders/{orders_id}`: Represents a single order. 
-The curly braces around {order_id} indicates that this is a URL path parameter and must be replaced by the ID of an order.
-
-we use the singleton URL /orders/{order_id} to per- form actions on an order, such as updating it, and the collections URL /orders to place and to list past orders. HTTP methods help us model these operations:
-
-- POST /orders to place orders since we use POST to create new resources. 
-- GET /orders to retrieve a list of orders since we use GET to obtain information. 
-- GET /orders/{order_id} to retrieve the details of a particular order. 
-- PUT /orders/{order_id} to update an order since we use PUT to update a resource. 
-- DELETE /orders/{order_id} to delete an order since we use DELETE for deletes. 
-- POST /orders/{order_id}/cancel to cancel an order. We use POST to create a cancellation. 
-- POST /orders/{order_id}/pay to pay for an order. We use POST to create a payment.
 
 ## Using HTTP status codes to create expressive HTTP responses
 We use status codes to signal the result of processing a request in the server.

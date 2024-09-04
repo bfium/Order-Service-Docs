@@ -1,11 +1,11 @@
-#yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
-site_name: Order Service and API docs
+site_name: Order Service and API Docs
 site_url: https://bfium.github.io/order-service-docs/
 theme:
   name: material
   custom_dir: overrides
   features:
     - navigation.indexes
+
 extra_css:
   - stylesheets/extra.css
 
@@ -14,23 +14,13 @@ extra_javascript:
 
 plugins:
   - search
-  #- meta
-#  - social:
-#      cards_layout_options:
-#        background_color: "#ff1493"
-#        logo: docs/assets/images/favicon.png
-#        cards_layout: default/variant
-
-
   - blog:
       blog_toc: true
       archive_date_format: MMM yyyy
       categories_allowed:
-        - it
+        - IT
         - News
-      authors_profiles: true
       pagination_per_page: 5
-      categories_pagination_per_page: 6
   - tags
   - rss:
       match_path: "blog/posts/."
@@ -41,34 +31,18 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/linkedin
-      name: barth. Feudong
+      name: Barth Feudong
       link: https://www.linkedin.com/in/barth-feudong/
-
-    - icon: /fontawesome/regular/envelope
-      name: send me an email
+    - icon: fontawesome/regular/envelope
+      name: Send me an email
       link: mailto:<email-address>
-
-    - icon: /material/mailbox
-      name: contact us
+    - icon: material/mailbox
+      name: Contact us
       link: /contact
-
-#hooks:
-#  - hooks/socialmedia.py
-#
-#markdown_extensions:
-#  - attr_list
-#  - pymdownx.emoji:
-#      emoji_index: !!python/name:material.extensions.emoji.twemoji
-#      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
-
-links:
-  - index.md
-  - blog/index.md
 
 nav:
   - Home: index.md
-  - Install: install.md
-  - Usage: usage.md
+  - Introduction: introduction.md
   - Blog:
       - blog/index.md
+      - blog/author/barth_feudong.md
