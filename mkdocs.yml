@@ -5,6 +5,9 @@ theme:
   custom_dir: overrides
   features:
     - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
 
   font:
     text: times
@@ -87,3 +90,4 @@ nav:
   - Blog:
       - blog/index.md
       - blog/author/barth_feudong.md
+
