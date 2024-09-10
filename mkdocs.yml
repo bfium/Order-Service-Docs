@@ -8,6 +8,17 @@ theme:
     - navigation.instant
     - navigation.instant.progress
     - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    #- navigation.sections
+    - toc.follow
+    #- toc.integrate
 
   font:
     text: times
