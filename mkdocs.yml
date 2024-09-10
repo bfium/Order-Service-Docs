@@ -5,6 +5,16 @@ theme:
   custom_dir: overrides
   features:
     - navigation.indexes
+
+  font:
+    text: times
+
+  logo: assets/logo.png
+  icon:
+    #previous: fontawsome/solid/angle-left
+    next: fontawsome/solid/angle-right
+
+
   palette:
       - media: "(prefers-color-scheme: light)"
         scheme: default
