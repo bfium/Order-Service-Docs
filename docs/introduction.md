@@ -11,6 +11,9 @@ readtime: 5
 tags:
   - service design
 
+search:
+  boost: 2 
+
 authors:
   - team
 ---

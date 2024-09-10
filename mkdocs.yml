@@ -53,6 +53,10 @@ extra_javascript:
 plugins:
   - privacy
   - search
+  - search.suggest
+  - search.highlight
+  - search.share
+
   - blog:
       blog_toc: true
       archive_date_format: MMM yyyy
